@@ -1,23 +1,21 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+As a software engineer, I wish to improve upon accounting processes and softwares, specifically by researching and modifying software that streamlines the accounting process.
 
-{Provide a description of your software}
+This software provides an overview of the learning processes of different languages.
 
-{Describe your purpose for creating this software.}
+Improve upon the accounting software and process
 
 {Provide a link to your YouTube demonstration.  It should be a one minute demo of the software running and a walkthrough of the code.}
 
-[Software Demo Video](http://youtube.link.goes.here)
+Hello World https://youtu.be/Zjs8DktEoQA
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+VS code with the pyton attatchment was used as a code editor and the software.
 
-{Describe the programming language that you used}
+Python was used as the coding language
 
-# Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+
+

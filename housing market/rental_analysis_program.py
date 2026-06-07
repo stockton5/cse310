@@ -1,9 +1,8 @@
 
-
 from pathlib import Path
 import pandas as pd
 
-DATA_FILE = "rental.xls"
+DATA_FILE = Path(__file__).parent / "rental.xls"
 OUTPUT_FILE = "rental_results.csv"
 TOP_AMOUNT = 10
 
@@ -24,7 +23,7 @@ def print_section(title):
     print("\n" + title)
     print("=" * len(title))
 
-
+#checks if the file is in the same folder and gives error if not otherwise executes loading process
 def load_data():
     file_path = Path(DATA_FILE)
     if not file_path.exists():
@@ -37,7 +36,7 @@ def load_data():
     data.columns = COLUMNS
     return data
 
-
+#cleans the data and makes it easier to read
 def clean_data(data):
     keep = [
         "City", "Year", "Population", "Enrollment", "Rent",
